@@ -8,4 +8,10 @@ console.log(allLow);
 
 // find a word in the string.
 // if the word is not in the string, it will return -1.
-console.log(line.indexOf("have"));
+/* console.log(line.indexOf("have")); */
+
+
+// splitting a string.
+// .split('par') this will split the string from the matching parameter.
+// returns a list.
+console.log(line2.split(' '));
