@@ -1,4 +1,4 @@
-var usr_1 = {usrName:"ABC", id:11111, phone:998877, location:"Neverland"};
+var usr_1 = {usrName:"ABC", id:11111, phone:998877, location:"NeverLand"};
 var usr_2 = {usrName:"BCD", id:11112, phone:998876, location:"NeverCity"};
 
 // accessing value of the objects
