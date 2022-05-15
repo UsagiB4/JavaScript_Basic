@@ -32,6 +32,11 @@ listName.shift();
 console.log(listName);
 
 // slice an array
-newNames = listName.slice(2, 6); // this will slice the list from index 1 to 4;
-console.log(newNames);
+newNames = listName.slice(2, 6); // this will slice the array from index 1 to 4;
+console.log(newNames, listName);
+// slice doesn't modify the old array but it creates a new one including the ranged items.
 
+// deletes the array elements within the given range
+delNames = listName.splice(1,3);
+console.log(listName, delNames);
+// splice changes the old array and creates a new array with the deleted items.
